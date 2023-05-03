@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    text-align: center;
+
+    background: white;
+}
+
+header nav .search1 {
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+}
+
+header nav h2 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 161.02%;
+    color: #1F1F1F;
+}
+
+header nav .login {
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+}
+
+.headerTitle {
+    width: 100%;
+    background: #1F1F1F;
+    padding-top: 450px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-bottom: 160px;
+
+}
+
+.headerTitle h1 {
+    text-align: center;
+
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+section.learn {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+section.learn h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 140%;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+}
+
+section.learn p {
+    font-family: 'Switzer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 161.02%;
+    color: #676767;
+}
+
+.right {
+    text-align: right;
+    max-width: 500px;
+    margin-left: 140px !important;
+    display: flex;
+    justify-content: end;
+}
+
+section.learn a {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #1F1F1F;
+    border-radius: 73px;
+    font-family: 'EuropeExt';
+    font-weight: 400;
+    background: transparent;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F1F1F;
+}
+
+section.learn button .fa {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+@media (max-width:991px) {
+    section.learn h1 {
+        font-size: 20px;
+    }
+
+    section.learn p {
+        font-size: 14px;
+    }
+
+    section.learn {
+
+        margin-bottom: 20px;
+    }
+
+    .headerTitle h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width:575px) {
+    .headerTitle h1 {
+        font-size: 20px;
+    }
+
+    .headerTitle {
+        width: 100%;
+        background: #1F1F1F;
+        padding-top: 175px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .right {
+        text-align: center;
+        max-width: 100%;
+        margin-left: 0px !important;
+        display: flex;
+        justify-content: end;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    section.learn button {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #1F1F1F;
+        border-radius: 73px;
+        font-family: 'EuropeExt';
+        font-weight: 400;
+        background: transparent;
+        font-size: 15px;
+        line-height: 140%;
+        color: #1F1F1F;
+    }
+}

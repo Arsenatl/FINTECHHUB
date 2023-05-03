@@ -1,0 +1,697 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    background: white;
+}
+
+header nav {
+    text-align: center;
+
+    background: white;
+}
+
+header nav .search1 {
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+}
+.fa-angle-plus{
+    display: none;
+}
+
+header nav h2 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 161.02%;
+    color: #1F1F1F;
+}
+
+header nav .login {
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+}
+
+section.Frontend {
+    width: 100%;
+    padding-top: 385px;
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+    background: url('../assets/Imgs/g1_bg.png') no-repeat center / cover;
+}
+
+section.Frontend h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.activeDropdown {
+    rotate: 180deg;
+}
+
+section.FrontendAbout {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+section.FrontendAbout ul {
+    padding-left: 20px;
+    border-left: 2px solid #E6E6E6;
+
+}
+
+.FAQ .parent {
+    display: none;
+}
+
+section.FrontendAbout ul li a {
+    font-family: 'EuropeExt';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #666666;
+    display: block;
+    margin-bottom: 58px;
+
+}
+
+.FrontendAbout h2 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #1F1F1F;
+    margin-bottom: 18px;
+}
+
+.FrontendAbout p {
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #737373;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.FrontendAbout .border1 {
+    border: 1px solid #1F1F1F;
+    border-radius: 5000px;
+    padding: 105px 101px 105px 60px;
+}
+
+.FrontendAbout h1.b {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #1F1F1F;
+}
+
+.FrontendAbout p.t {
+    font-family: 'Switzer';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #1F1F1F;
+    margin: 0;
+    padding: 0;
+}
+
+.FrontendAbout .border2 {
+    padding: 105px 90px 104px 60px;
+    border: 1px solid #1F1F1F;
+    border-radius: 183px;
+}
+
+.FrontendAbout .border3 {
+    padding: 105px 138px 105px 60px;
+    border: 1px solid #1F1F1F;
+    border-radius: 183px;
+}
+
+.FrontendAbout .border4 {
+    padding: 105px 60px;
+    border: 1px solid #1F1F1F;
+    border-radius: 183px;
+}
+
+section.advantages {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+section.advantages h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+
+}
+
+section.advantages p {
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6A6A6A;
+
+}
+
+section.advantages h2 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+    text-align: right;
+
+}
+
+section.advantages .r {
+    text-align: right;
+}
+
+section.advantages ul {
+    padding-left: 20px;
+    border-left: 2px solid #E6E6E6;
+
+}
+
+section.advantages ul li a {
+    font-family: 'EuropeExt';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #666666;
+    display: block;
+    margin-bottom: 58px;
+
+}
+
+main.Roadmap {
+    width: 100%;
+    margin-bottom: 440px;
+}
+
+main.Roadmap h1.k::before {
+    display: block;
+    background-color: rgba(214, 214, 214, 1) !important;
+}
+
+main.Roadmap h1::before {
+    content: '';
+    width: 23px;
+    height: 23px;
+    display: block;
+    border-radius: 50%;
+    background-color: rgba(2, 140, 240, 1);
+    position: absolute;
+    top: 0;
+    left: -28px;
+}
+
+main.Roadmap h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+main.Roadmap p {
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #737373;
+    margin-bottom: 20px;
+}
+
+main.Roadmap p:last-of-type {
+    margin: 0;
+    padding: 0;
+}
+
+main.Roadmap p.second {
+    margin-bottom: 112px;
+}
+
+main.Roadmap .CardBox {
+    display: flex;
+    margin-bottom: 140px;
+}
+
+main.Roadmap .CardBox .card {
+    padding: 22px;
+    border: 1px solid #1F1F1F;
+    border-radius: 110px;
+    margin-right: 20px;
+}
+
+main.Roadmap ul {
+    padding-left: 20px;
+    border-left: 2px solid #E6E6E6;
+
+}
+
+main.Roadmap ul li a {
+    font-family: 'EuropeExt';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #666666;
+    display: block;
+    margin-bottom: 58px;
+
+}
+
+main.Mentor {
+    width: 100%;
+    margin-bottom: 230px;
+}
+
+main.Mentor h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1F1F1F;
+    margin-bottom: 8px;
+    margin-top: 10px;
+
+}
+
+main.Mentor p {
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #6A6A6A;
+
+}
+
+main.Mentor ul {
+    padding-left: 20px;
+    border-left: 2px solid #E6E6E6;
+
+}
+
+main.Mentor ul li a {
+    font-family: 'EuropeExt';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #666666;
+    display: block;
+    margin-bottom: 58px;
+
+}
+
+main.FAQ {
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+main.FAQ h1:first-of-type {
+    margin-top: -44px;
+}
+
+main.FAQ h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #1F1F1F;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #1F1F1F;
+    padding-bottom: 49px;
+    padding-top: 29px;
+    align-items: center;
+
+}
+
+main.FAQ p {
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #737373;
+}
+
+main.FAQ h1 .fa {
+    font-size: 60px;
+    color: #1F1F1F;
+}
+
+main.FAQ ul {
+    padding-left: 20px;
+    border-left: 2px solid #E6E6E6;
+
+}
+
+main.FAQ ul li a {
+    font-family: 'EuropeExt';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #666666;
+    display: block;
+    margin-bottom: 58px;
+
+}
+
+main.Communication ul {
+    padding-left: 20px;
+    border-left: 2px solid #E6E6E6;
+
+}
+
+main.Communication ul li a {
+    font-family: 'EuropeExt';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #666666;
+    display: block;
+    margin-bottom: 58px;
+
+}
+
+main.Communication {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+main.Communication h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 161.02%;
+    color: #1F1F1F;
+}
+
+main.Communication p {
+    font-family: 'Switzer';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 161.02%;
+    color: #7C7C7C;
+    margin-bottom: 60px;
+}
+
+main.Communication button {
+    padding: 64px 27px;
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 161.02%;
+    color: #A9A9A9;
+    background: #CACACA;
+    border: none;
+    border-radius: 50%;
+}
+
+main.Communication form {
+    width: 100%;
+}
+
+main.Communication form input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #1F1F1F;
+    margin-bottom: 44px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 161.02%;
+}
+
+main.Communication form input:focus {
+    outline: none;
+}
+
+main.Communication form input::placeholder {
+    font-family: 'EuropeExt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 161.02%;
+    /* identical to box height, or 39px */
+
+
+    color: #D6D6D6;
+
+}
+
+.trial {
+    text-align: end;
+}
+
+@media (max-width:1200px) {
+    section.Frontend h1 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    .FrontendAbout h1.b {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #1F1F1F;
+    }
+
+    .FrontendAbout h2 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+        color: #1F1F1F;
+        margin-bottom: 18px;
+    }
+
+    .FrontendAbout .border1,
+    .FrontendAbout .border2,
+    .FrontendAbout .border3 {
+        padding: 75px 75px 105px 60px;
+        border: 1px solid #1F1F1F;
+        height: 250px;
+        border-radius: 183px;
+    }
+
+    .FrontendAbout .border3 {
+        padding: 75px 75px 105px 60px;
+        border: 1px solid #1F1F1F;
+        border-radius: 183px;
+    }
+
+    .FrontendAbout .border4 {
+        height: 250px;
+    }
+
+}
+
+@media (max-width:991px) {
+    body {
+        text-align: center !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    section.Frontend h1 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    section.Frontend h1 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    .FrontendAbout .border1,
+    .FrontendAbout .border2,
+    .FrontendAbout .border3,
+    .FrontendAbout .border4 {
+        border: 1px solid #1F1F1F;
+        border-radius: 5000px;
+        width: 100%;
+        height: unset;
+        display: flex;
+        justify-content: space-between;
+        padding: 34px 101px 35px 60px;
+    }
+
+    section.Frontend {
+        width: 100%;
+        padding-top: 385px;
+        margin-bottom: 100px;
+        padding-bottom: 30px;
+        background: url(../assets/Imgs/g1_bg.png) no-repeat center / cover;
+    }
+
+    main.Roadmap {
+        width: 100%;
+        margin-bottom: 140px;
+    }
+
+    main.Mentor {
+        width: 100%;
+        margin-bottom: 130px;
+    }
+
+    .Frontend img {
+        width: 300px;
+        margin: auto;
+    }
+
+
+
+    main.FAQ h1 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1F1F1F;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #1F1F1F;
+        padding-bottom: 49px;
+        padding-top: 29px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    section.center .but {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #1F1F1F;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        border: 1px solid #1F1F1F;
+        border-radius: 73px;
+        padding: 21px;
+        margin-top: 32px;
+    }
+
+    .Roadmap .col-9 {
+        border: none !important;
+    }
+
+    main.Roadmap h1::before {
+        display: none;
+    }
+
+    main.Roadmap h1.k::before {
+        display: none;
+    }
+
+    section.advantages ul li a,
+    main.Roadmap ul li a,
+    main.Mentor ul li a,
+    section.FrontendAbout ul li a {
+        font-family: 'EuropeExt';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        color: #666666;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:575px) {
+
+
+    section.Frontend h1 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        /* color: #FFFFFF; */
+    }
+
+    .Frontend img {
+        width: 200px;
+        margin: auto;
+    }
+
+    .FrontendAbout h1.b {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #1F1F1F;
+    }
+
+    .FrontendAbout p.t {
+        font-family: 'Switzer';
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 100%;
+        color: #1F1F1F;
+        margin: 0;
+        padding: 0;
+    }
+
+    .FrontendAbout h2 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 100%;
+        color: #1F1F1F;
+        margin-bottom: 0;
+    }
+
+    section.Frontend {
+        width: 100%;
+        padding-top: 200px;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        background: url(../assets/Imgs/g1_bg.png) no-repeat center / cover;
+    }
+
+}

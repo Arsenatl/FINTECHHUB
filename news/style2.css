@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+section.women {
+    width: 100%;
+    margin-top: 50px;
+}
+
+section.women h1 {
+    font-family: 'EuropeExt';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #1F1F1F;
+    margin-top: 60px;
+
+}
+
+section.women p {
+    font-family: 'Switzer';
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 161.02%;
+    margin-bottom: 35px;
+    color: #676767;
+    margin-top: 20px;
+
+}
+
+section.women .sister img {
+    width: 400px;
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width:575px) {
+    section.women h1 {
+        font-family: 'EuropeExt';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 140%;
+        color: #1F1F1F;
+        margin-top: 20px;
+    }
+
+    section.women p {
+        font-family: 'Switzer';
+        font-style: normal;
+        font-weight: 400;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 161.02%;
+        margin-bottom: 15px;
+        color: #676767;
+        margin-top: 5px;
+    }
+
+    section.women .sister img {
+        width: 200px;
+    }
+}

@@ -1,0 +1,166 @@
+.horizantal_scroll {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  /* max-width: 1920px; */
+}
+.horizantal_scroll .lines {
+  height: 0;
+  position: absolute;
+  top: 100px;
+}
+.div2 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 300vw;
+  position: relative;
+  /* background: red; */
+}
+.div2 .box {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.div2 .div21 {
+  /* background-color: #f3ff3e; */
+  /* height: 80vh; */
+  /* display: flex; */
+}
+.div2 .div22 {
+  /* background-color: #ff7dff; */
+  /* height: 80vh; */
+}
+.div2 .div23 {
+  /* background-color: #00ff72; */
+  /* height: 80vh; */
+}
+.div2 .cardOne {
+  display: flex;
+  justify-content: end;
+  margin-right: -300px;
+  /* align-items: center; */
+  padding: 100px 0;
+  position: relative;
+}
+/* .div2 .cardOne::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  width: 128.1%;
+  height: 2px;
+  background-color: #000000;
+} */
+
+.div2 .cardOne h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.div2 .cardOne h3 {
+  font-family: "EuropeExtR";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+  margin-top: 250px;
+}
+
+.div2 .cardOne p {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6a6a6a;
+}
+
+.div2 .cardOne .imgs img {
+  height: auto;
+  max-width: 100%;
+  margin-left: 150px;
+}
+.div2 .cardTwo {
+  display: flex;
+  margin-left: 500px;
+  padding: 70px 0;
+  position: relative;
+}
+
+/* .div2 .cardTwo::after {
+  content: "";
+  position: absolute;
+  top: 227.5px;
+  left: 299px;
+  width: 100%;
+  height: 1.5px;
+  background-color: #000000;
+  transform: rotate(20deg);
+  z-index: 000;
+} */
+
+.div2 .cardTwo h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #000000;
+  /* margin-top: 50px; */
+}
+.div2 .cardTwo p {
+  align-self: flex-end;
+  /* margin-left: 50px; */
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  width: 250px;
+  color: #6a6a6a;
+}
+.div2 .cardTwo img {
+  max-width: 100%;
+  height: 80vh;
+  margin: 0 50px;
+  z-index: 99;
+}
+
+.div23 .cardThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+}
+.div23 .cardThree h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #000000;
+  margin-left: -400px;
+}
+.div23 .cardThree p {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6a6a6a;
+  margin-right: -400px;
+}
+.div23 .cardThree img {
+  max-width: 100%;
+  height: 60vh;
+  margin: 50px 0;
+}
+/* .div3 {
+  height: 100vh;
+  width: 100vw;
+  background: #39adff;
+  background-image: url(http://Wallpaper-House.com/data/out/7/wallpaper2you_152580.jpg);
+  background-position: center;
+  background-size: cover;
+} */

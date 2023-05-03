@@ -1,0 +1,4160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  cursor: none;
+}
+
+body {
+  background: #fbfbfb;
+  overflow-x: hidden;
+}
+
+.worning {
+  padding-left: 15px;
+  font-family: "EuropeExtB";
+  text-align: center;
+}
+
+.worning span {
+  color: #028cf0;
+}
+
+.activeDropdown {
+  rotate: 180deg;
+  transition: 1s;
+}
+
+nav .media {
+  display: none;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+nav .media .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .media .box .right img {
+  border-left: 1px solid #e7e7e7;
+  padding: 20px;
+}
+
+/* Arsen */
+nav {
+  width: 100%;
+}
+
+nav .search {
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 111;
+}
+
+nav .middleFintech h1 {
+  font-family: "EuropeExtB";
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: rgb(31, 31, 31);
+}
+
+nav .search .searchRightUser {
+  padding: 16.5px 0;
+}
+
+nav .search .searchLeftLogo {
+  padding: 6px 0;
+  text-decoration: none;
+}
+
+nav .search .middleSearch {
+  padding: 16.5px 0;
+}
+
+nav .search .middleSearchInp {
+  padding: 16.5px 0;
+}
+
+nav .search .middleInp {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+nav .search .middleInp input {
+  width: 100%;
+  padding: 33px 0;
+  border: none;
+  color: #000;
+  font-size: 32px;
+  line-height: 51px;
+  font-weight: 400;
+  font-family: "EuropeExtR";
+  outline: none;
+}
+
+nav .search .searchInpClose {
+  padding: 16.5px 0;
+}
+
+/* Arsen */
+/* easier **** */
+
+.easier {
+  margin: 110px 15px;
+}
+
+.easier .easierTitle {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 161.02%;
+  text-transform: uppercase;
+  color: #1f1f1f;
+}
+
+.easier .line {
+  height: 1px;
+  background: #1f1f1f;
+  width: 100%;
+  position: relative;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.easier .line::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid #1f1f1f;
+  transform: rotate(309deg);
+  position: absolute;
+  top: -12.1px;
+  right: 6.5px;
+}
+
+.easier .line::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid #1f1f1f;
+  transform: rotate(44deg);
+  position: absolute;
+  bottom: -14.1px;
+  right: 6.2px;
+}
+
+/* header ***** */
+
+header {
+  padding: 0 17px;
+}
+
+header .bgImgs {
+  background-image: url("../assets/Imgs/headersImg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 663px 0 60px 60px;
+  border-radius: 20px;
+}
+
+header button {
+  border: none;
+  cursor: pointer;
+}
+
+header .typesLessons {
+  margin-right: 60px;
+}
+
+header .typesLessons button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  padding: 32px 55px;
+  font-family: "SwitzerR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #ffffff;
+  cursor: none;
+}
+
+header .typesLessons button:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+
+header .typesLessons button:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+header .lessonsBtn .mtLesson {
+  margin-top: 5px;
+}
+
+header .lessonsBtn button {
+  padding: 10px;
+  background: rgba(114, 114, 114, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  font-family: "SwitzerL";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #ffffff;
+  cursor: none;
+}
+
+/* aboutUs ***** */
+
+.aboutUs {
+  margin: 150px 17px 0;
+  cursor: url("../Imgs/assestent.png");
+}
+
+.aboutUs #wrapper {
+  position: relative;
+}
+
+.aboutUs #wrapper .portfolio-item {
+  overflow-y: scroll;
+  height: 370px;
+}
+
+.aboutUs #wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(180deg,
+      #fbfbfb 15.97%,
+      rgba(251, 251, 251, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.aboutUs #wrapper::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(360deg,
+      #fbfbfb 70.97%,
+      rgba(251, 251, 251, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: 999;
+}
+
+.aboutUs #wrapper p {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #1f1f1f;
+  position: relative;
+  transition: all 1s linear !important;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.aboutUs #wrapper .portfolio-item::-webkit-scrollbar {
+  display: none;
+}
+
+.aboutUs #wrapper .portfolio-item {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.aboutUs #wrapper p .poAbs {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.aboutUs #wrapper p .poAbs .scrollTop {
+  padding: 0 20px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUs #wrapper p .poAbs .scrollBottom {
+  padding: 0 20px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* courses **** */
+
+.courses {
+  margin: 200px 0 100px;
+}
+
+.courses .title {
+  line-height: unset;
+  font-size: 30px;
+}
+
+.courses button.bgdarck {
+  padding: 14px 120px;
+  background: black;
+  border-radius: 78px;
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 220.02%;
+  color: #ffffff;
+  border: none;
+}
+
+.courses button.bgwhite {
+  padding: 14px 120px;
+  background: white;
+  color: #1f1f1f;
+  border-radius: 78px;
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 220.02%;
+  border: none;
+}
+
+.courses button:hover {
+  cursor: pointer;
+}
+
+.courses .courseButon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 100px;
+}
+
+.courses .courseButon button {
+  font-family: "EuropeExtB";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 44px;
+  color: black;
+  padding: 14px 110px;
+  border: none;
+  background: #ffffff;
+  border-radius: 78px;
+  cursor: none;
+}
+
+.courses .front {
+  width: 100%;
+  margin-top: 45px;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .front .left {
+  text-align: left;
+  position: relative;
+}
+
+.courses .front .left h2 {
+  font-family: "EuropeExtB";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.courses .front .left button.buttonBlur {
+  position: absolute;
+  top: 30px;
+  left: 85%;
+}
+
+.courses .front .img {
+  text-align: right;
+}
+
+.courses .bacend {
+  width: 100%;
+  margin-top: 45px;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .bacend .left {
+  text-align: left;
+}
+
+.courses .bacend .left h2 {
+  font-family: "EuropeExtB";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.courses .bacend .img {
+  text-align: right;
+}
+
+.courses .mobile {
+  width: 100%;
+  margin-top: 45px;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .mobile .left {
+  text-align: left;
+}
+
+.courses .mobile .left h2 {
+  font-family: "EuropeExtB";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.courses .mobile .img {
+  text-align: right;
+}
+
+/* atmosphere **** */
+
+/* .atmosphere {
+  margin-top: 150px;
+  width: 100%;
+}
+
+.atmosphere .atmospheresFlex {
+  display: flex;
+  margin-top: 50px;
+}
+
+.atmosphere .atmospheresFlex .anomeOne {
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.atmosphere .atmospheresFlex .anomeOne .openSpace h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.atmosphere .atmospheresFlex .anomeOne .openSpace .openText {
+  margin-top: 200px;
+}
+
+.atmosphere .atmospheresFlex .anomeOne .openSpace .openText h2 {
+  font-family: "EuropeExtR";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.atmosphere .atmospheresFlex .anomeOne .openSpace .openText p {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6a6a6a;
+}
+
+.atmosphere .atmospheresFlex .anomeOne .imgs {
+  margin-left: 80px;
+}
+
+.atmosphere .atmospheresFlex .anomeOne .imgs_rotate {
+  transform: rotate(0deg);
+}
+
+.atmosphere .atmospheresFlex .animeTwo {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.atmosphere .atmospheresFlex .animeTwo h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #000000;
+  align-self: flex-start;
+}
+
+.atmosphere .atmospheresFlex .animeTwo p {
+  font-family: "Switzer";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6a6a6a;
+  align-self: flex-end;
+  width: 500px;
+}
+
+.atmosphere .atmospheresFlex .animeTwo .imgs {
+  margin: 0 40px;
+} */
+
+/* motivational ****** */
+
+.motivational {
+  height: 100vh !important;
+  display: flex;
+  align-items: center;
+}
+
+.motivational .center {
+  display: flex;
+  /* justify-content: right; */
+}
+
+.motivational .center .text {
+  margin: 140px 100px;
+  text-align: left;
+}
+
+.motivational .center .text h3 {
+  font-family: "EuropeExtB";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgb(31, 31, 31);
+}
+
+.motivational .center .text h2 {
+  padding-top: 280px;
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: rgb(31, 31, 31);
+}
+
+.motivational .center .text p {
+  font-family: "SwitzerL";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(106, 106, 106);
+}
+
+.motivational .center .img {
+  margin-top: 120px;
+  text-align: right;
+}
+
+.motivational .left h2 {
+  font-family: "EuropeExtB";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: rgb(31, 31, 31);
+}
+
+.motivational .left p {
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 25px;
+  color: rgb(131, 131, 131);
+}
+
+.motivational .right {
+  margin-top: 80px;
+  text-align: right !important;
+}
+
+/* statistiika **** */
+
+.statistika .right {
+  display: flex;
+  justify-content: right;
+}
+
+.statistika .right .box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statistika .right .box .card {
+  width: 416px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 1px solid #1f1f1f;
+  border-radius: 10px;
+  padding: 32px;
+}
+
+.statistika .right .box .card h3 {
+  font-family: "EuropeExtB";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #1f1f1f;
+}
+
+.statistika .right .box .card p {
+  font-family: "SwitzerL";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  color: rgb(31, 31, 31);
+}
+
+.statistika .right .box .text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.statistika .right .box .text p {
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  padding: 32px;
+  color: rgb(115, 115, 115);
+}
+
+.statistika .right .box .card:nth-child(1) {
+  border: none;
+}
+
+/* studentWork **** */
+
+.studentWork {
+  margin-top: 200px;
+}
+
+.studentWork .left {
+  text-align: left;
+}
+
+.studentWork .left .studentBtn {
+  margin-top: 40px;
+  padding: 30px;
+  font-family: "EuropeExtR";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  border: 1px solid #1f1f1f;
+  border-radius: 73px;
+  background-color: white;
+  cursor: none;
+  width: max-content;
+}
+
+.studentWork .left .studentBtn a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+.studentWork .box {
+  width: 700px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+}
+
+.studentWork .box h4 {
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  text-align: left;
+}
+
+.studentWork .box .flex {
+  display: flex;
+  align-items: center;
+}
+
+.studentWork .box .flex .colomun {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.studentWork .box .flex .colomun h5 {
+  font-family: "SwitzerL";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+.studentWork .box .flex .colomun p {
+  font-family: "SwitzerL";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  color: #c5c5c5;
+}
+
+.studentWork .box :nth-child(1) {
+  margin-right: -15px;
+  z-index: 10;
+}
+
+.studentWork .box :nth-child(2) {
+  margin-right: -15px;
+  z-index: 8;
+}
+
+.studentWork .box :nth-child(3) {
+  margin-right: -15px;
+  z-index: 5;
+}
+
+.studentWork .uniret {
+  margin-top: 30px;
+  background: #1f1f1f;
+  border-radius: 10px;
+}
+
+.studentWork .uniret h4 {
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.studentWork .uniret .img {
+  text-align: right;
+  margin-top: 35px;
+}
+
+.studentWork .uniret .flex {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.studentWork .uniret .flex .colomun {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.studentWork .uniret .flex .colomun h5 {
+  font-family: "SwitzerL";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+.studentWork .uniret .flex .colomun p {
+  font-family: "SwitzerL";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  color: rgb(197, 197, 197);
+}
+
+.studentWork .uniret .flex img {
+  margin: 0;
+}
+
+.studentWork .uniret .flex :nth-child(1) {
+  margin-right: -15px;
+  z-index: 10;
+}
+
+.studentWork .uniret .flex :nth-child(2) {
+  margin-right: -15px;
+  z-index: 8;
+}
+
+.studentWork .uniret .flex :nth-child(3) {
+  margin-right: -15px;
+  z-index: 5;
+}
+
+.studentWork .sistema {
+  background: #1f1f1f;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.studentWork .sistema h4 {
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  text-align: left;
+  margin-bottom: 120px;
+}
+
+.studentWork .sistema .flex {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.studentWork .sistema .flex .colomun {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.studentWork .sistema .flex .colomun h5 {
+  font-family: "SwitzerL";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+.studentWork .sistema .flex .colomun p {
+  font-family: "SwitzerL";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  color: rgb(197, 197, 197);
+}
+
+.studentWork .sistema .flex img {
+  margin: 0;
+}
+
+.studentWork .sistema .flex :nth-child(1) {
+  margin-right: -15px;
+  z-index: 10;
+}
+
+.studentWork .sistema .flex :nth-child(2) {
+  margin-right: -15px;
+  z-index: 8;
+}
+
+.studentWork .sistema .flex :nth-child(3) {
+  margin-right: -15px;
+  z-index: 5;
+}
+
+.studentWork .box_mobil {
+  display: none;
+  height: 530px;
+  background: #1f1f1f;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.studentWork .box_mobil h4 {
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  text-align: left;
+}
+
+.studentWork .box_mobil h5 {
+  display: none;
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  text-align: left;
+}
+
+.studentWork .box_mobil img {
+  width: 320px;
+  margin-top: 80px;
+}
+
+.studentWork .box_mobil .flex {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.studentWork .box_mobil .flex .colomun {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.studentWork .box_mobil .flex .colomun h5 {
+  font-family: "SwitzerL";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+.studentWork .box_mobil .flex .colomun p {
+  font-family: "SwitzerL";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  color: rgb(197, 197, 197);
+}
+
+.studentWork .box_mobil .flex img {
+  margin: 0;
+}
+
+.studentWork .box_mobil .flex :nth-child(1) {
+  margin-right: -15px;
+  z-index: 10;
+}
+
+.studentWork .box_mobil .flex :nth-child(2) {
+  margin-right: -15px;
+  z-index: 8;
+}
+
+.studentWork .box_mobil .flex :nth-child(3) {
+  margin-right: -15px;
+  z-index: 5;
+}
+
+.studentWork .sistema_mobil {
+  display: none;
+  background: #1f1f1f;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.studentWork .sistema_mobil h4 {
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: white;
+  text-align: left;
+  margin-bottom: 120px;
+}
+
+.studentWork .sistema_mobil .flex {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.studentWork .sistema_mobil .flex .colomun {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.studentWork .sistema_mobil .flex .colomun h5 {
+  font-family: "SwitzerL";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+.studentWork .sistema_mobil .flex .colomun p {
+  font-family: "SwitzerL";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  color: rgb(197, 197, 197);
+}
+
+.studentWork .sistema_mobil .flex img {
+  margin: 0;
+}
+
+.studentWork .sistema_mobil .flex :nth-child(1) {
+  margin-right: -15px;
+  z-index: 10;
+}
+
+.studentWork .sistema_mobil .flex :nth-child(2) {
+  margin-right: -15px;
+  z-index: 8;
+}
+
+.studentWork .sistema_mobil .flex :nth-child(3) {
+  margin-right: -15px;
+  z-index: 5;
+}
+
+.studentWork button.up {
+  display: none;
+}
+
+/* teachers **** */
+
+.teachers {
+  margin: 173px 0 200px;
+  width: 100% !important;
+}
+
+.teachers .contains {
+  max-width: 1920px;
+  /* background: red; */
+  margin: auto;
+}
+
+.teachers .contain {
+  max-width: 1620px;
+  margin: auto;
+  padding: 0px 0px 0px 15px;
+}
+
+.teachers .row {
+  gap: 20px;
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-end !important;
+  margin-top: 40px;
+}
+
+.teachers .row .cards {
+  gap: 20px;
+  display: flex !important;
+  align-items: flex-start;
+}
+
+.teachers .row .cards .techTitle {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1f1f1f;
+  margin: 10px 0 8px;
+}
+
+.teachers .row .cards .assetTitle {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 140%;
+  color: #1f1f1f;
+  margin: 20px 0 8px;
+}
+
+.teachers .row .cards .techText {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #6a6a6a;
+}
+
+.teachers .row .cards .teacherCard {
+  position: relative;
+}
+
+.teachers .row .cards .teacherCard .teachImg img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.teachers .row .cards .teacherCard .teachImg .activity {
+  position: absolute;
+  bottom: 80px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.teachers .row .cards .teacherCard .teachImg .activity button {
+  font-family: "Switzer";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(114, 114, 114, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 6px;
+}
+
+.teachers .row .cards .assistentCard {
+  margin-right: 50px;
+}
+
+.teachers .row .cards .assistentCard .assisImg img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+/* withUs **** */
+
+.withUs {
+  margin: 0;
+  padding: 0;
+}
+
+.withUs::-webkit-scrollbar {
+  display: none;
+}
+
+.withUs .textOne,
+.withUs .textTwo,
+.withUs .textThree,
+.withUs .textFour {
+  display: none;
+}
+
+.withUs .activeTitle {
+  opacity: 1;
+  display: block;
+  transition: all 1s linear;
+}
+
+.withUs .circleTitleOne,
+.withUs .circleTitleTwo,
+.withUs .circleTitleThree,
+.withUs .circleTitleFour {
+  display: none;
+  opacity: 0;
+  transform: rotate(-52deg);
+}
+
+.withUs .circleTitleActive {
+  display: block;
+  opacity: 1;
+}
+
+.withUs .center {
+  text-align: center;
+}
+
+.withUs .center .circlePart {
+  font-family: "EuropeExtB";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #1f1f1f;
+  border: 1px solid #d6d6d6;
+  border-top: 2px solid blue;
+  border-radius: 50%;
+  width: 680px;
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  transform: rotate(52deg);
+}
+
+.withUs .right {
+  text-align: right;
+  height: 500px;
+  position: relative;
+}
+
+.withUs .right p {
+  position: absolute;
+  bottom: 0;
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  color: rgb(115, 115, 115);
+}
+
+.withUs .right .bot {
+  position: absolute;
+  top: 0;
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  color: rgb(115, 115, 115);
+}
+
+.withUs .left {
+  display: flex;
+  height: 500px;
+  position: relative;
+}
+
+.withUs .left p.text {
+  position: absolute;
+  top: 0;
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  color: #737373;
+}
+
+.withUs .left .buttonBlur {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -70px;
+  right: 30px;
+  z-index: 99;
+}
+
+.withUs .left p.bot {
+  position: absolute;
+  bottom: 0;
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  color: #737373;
+}
+
+/* news ***** */
+
+.news {
+  margin-top: 130px;
+}
+
+.news .left {
+  text-align: left;
+}
+
+.news .left .newsBtn {
+  font-family: "EuropeExtR";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 30px;
+  border: 1px solid #1f1f1f;
+  border-radius: 73px;
+  background-color: white;
+  margin-top: 40px;
+  width: max-content;
+}
+
+.news .left .newsBtn a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+.news .box {
+  display: flex;
+  border-top: 1px solid rgb(31, 31, 31);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.news .box .colomun {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.news .box .colomun h3 {
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  color: rgb(31, 31, 31);
+}
+
+.news .box .colomun p {
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29phomex;
+  margin-top: 20px;
+  color: rgb(103, 103, 103);
+}
+
+.news .box .colomun button.buttonBlur {
+  position: absolute;
+  bottom: 60px;
+  right: 120px;
+}
+
+.news button.up {
+  display: none;
+  font-family: "EuropeExtR";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgb(102, 102, 102);
+  padding: 30px;
+  border: 1px solid #1f1f1f;
+  border-radius: 73px;
+  background-color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+/* student **** */
+/* student------------------ **** */
+.student .videos .circle svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(270deg);
+}
+
+.circle .videoProgress circle {
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke: #191919;
+  stroke-width: 4;
+  transform: translate(5px, 5px);
+  r: 325;
+  cx: 320;
+  cy: 320;
+}
+
+.circle .videoProgress circle:nth-child(2) {
+  stroke: #028cf0;
+  stroke-dasharray: 2042;
+  transition: 1s linear;
+}
+
+.circle .videoProgress_mobile circle {
+  display: none;
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke: #191919;
+  stroke-width: 4;
+  transform: translate(5px, 5px);
+  r: 146;
+  cx: 145;
+  cy: 145;
+}
+
+.circle .videoProgress_mobile circle:nth-child(2) {
+  display: none;
+  stroke: #028cf0;
+  stroke-dasharray: 942;
+  transition: 1s linear;
+}
+
+/* --------- */
+.circle svg circle {
+  display: block;
+}
+
+.circle svg circle:nth-child(2) {
+  display: block;
+}
+
+.circle .videoProgress_mobile circle {
+  display: none;
+}
+
+.circle .videoProgress_mobile circle:nth-child(2) {
+  display: none;
+}
+
+/* ------ */
+
+/* student------------------ **** */
+
+.student {
+  margin-top: 230px;
+  position: relative;
+}
+
+.student video {
+  border-radius: 50%;
+  -o-object-fit: fill;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.student .videos {
+  display: none;
+  width: 100%;
+  height: 200%;
+  position: relative;
+  position: absolute !important;
+  top: -50%;
+  left: 0;
+  transform: translate(0%, 0%);
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+  z-index: 99;
+  transition: all 3s linear;
+}
+
+.student .videos .w100 {
+  width: 650px;
+  height: 650px;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  z-index: 999999 !important;
+}
+
+.student .videos .blurVido {
+  width: 100%;
+  height: 100%;
+}
+
+.student .videos .vidText {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.student .videos .vidText h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 161.02%;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #000000;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  padding: 14px 16px;
+}
+
+.student .videos .vidText p {
+  font-family: "SwitzerR";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 161.02%;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #ffffff;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  width: 142px;
+  margin: auto;
+  padding: 10px 0;
+  margin-top: -10px;
+}
+
+.student .palyVideo {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+}
+
+.student img {
+  border-radius: 50%;
+}
+
+.student .studentImgOne {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.student .studentImgTwo {
+  width: 180px;
+  height: 180px;
+}
+
+.student .studentImgThree {
+  width: 450px;
+  height: 450px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.student .studentImgFour {
+  width: 220px;
+  height: 220px;
+}
+
+.student .studentImgFive {
+  width: 300px;
+  height: 300px;
+}
+
+.student .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.student .text button.buttonBg {
+  margin-top: 150%;
+}
+
+.student .box {
+  display: flex;
+  margin-top: 50px;
+}
+
+.student .box .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+.student .box .card .img1 {
+  position: relative;
+}
+
+.student .box .card .img1 .pass {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  left: -60px;
+}
+
+.student .box .card .img1 .pass button {
+  font-family: "EuropeExtB";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border: 1px solid #1f1f1f;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  padding: 14px 10px;
+  color: #1f1f1f;
+}
+
+.student .box .card .img1 .pass :nth-child(2) {
+  padding: 10px 0;
+  width: 160px;
+  margin-top: -15px;
+  font-family: "SwitzerR";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1f1f1f;
+  border: 1px solid #fff;
+}
+
+.student .box .card .flex_mobil {
+  display: none;
+  position: relative;
+  margin-top: 50px;
+}
+
+.student .box .card .flex_mobil .studentCursor .play {
+  width: 80px;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  -webkit-backdrop-filter: blur(3.5px);
+  backdrop-filter: blur(3.5px);
+}
+
+.student .box .card .flex_mobil .studentCursor video {
+  width: 350px;
+  height: 350px;
+}
+
+.student .box .card .flex_mobil .pass {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+}
+
+.student .box .card .flex_mobil .pass button {
+  font-family: "EuropeExtB";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border: 1px solid #1f1f1f;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  padding: 14px 10px;
+  color: #1f1f1f;
+}
+
+.student .box .card .flex_mobil .pass :nth-child(2) {
+  padding: 10px;
+  width: 160px;
+  margin-top: -15px;
+  font-family: "SwitzerR";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1f1f1f;
+  border: 1px solid #fff;
+}
+
+.student .box .card .img2 {
+  position: relative;
+  margin-top: 50px;
+}
+
+.student .box .card .img2 .pass {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10px;
+  left: -120px;
+}
+
+.student .box .card .img2 .pass button {
+  font-family: "EuropeExtB";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border: 1px solid #1f1f1f;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  padding: 14px 10px;
+  color: #1f1f1f;
+}
+
+.student .box .card .img2 .pass :nth-child(2) {
+  width: 160px;
+  padding: 10px 0;
+  margin-top: -15px;
+  font-family: "SwitzerR";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1f1f1f;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.student .box .flex {
+  position: relative;
+  margin-top: 50px;
+}
+
+.student .box .flex .img3 {
+  position: absolute;
+  bottom: 80px;
+  left: 120px;
+}
+
+.student .box .flex .img3 .play {
+  width: 80px;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  -webkit-backdrop-filter: blur(3.5px);
+  backdrop-filter: blur(3.5px);
+}
+
+.student .box .flex .pass {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 160px;
+  right: -80px;
+}
+
+.student .box .flex .pass button {
+  font-family: "EuropeExtB";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border: 1px solid #1f1f1f;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  padding: 14px 10px;
+  color: #1f1f1f;
+}
+
+.student .box .flex .pass :nth-child(2) {
+  padding: 10px;
+  width: 160px;
+  margin-top: -15px;
+  font-family: "SwitzerR";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1f1f1f;
+  border: 1px solid #fff;
+}
+
+.student .bottomcard {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.student .bottomcard .malika {
+  position: relative;
+  transform: translateX(150px);
+}
+
+.student .bottomcard .malika .pass {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 15px;
+  right: -50px;
+}
+
+.student .bottomcard .malika .pass button {
+  font-family: "EuropeExtB";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border: 1px solid #1f1f1f;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  padding: 14px 10px;
+  color: #1f1f1f;
+}
+
+.student .bottomcard .malika .pass :nth-child(2) {
+  padding: 10px 0;
+  width: 160px;
+  margin-top: -15px;
+  font-family: "SwitzerR";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1f1f1f;
+  border: 1px solid #fff;
+}
+
+.student .bottomcard .mahliyo {
+  position: relative;
+}
+
+.student .bottomcard .mahliyo .pass {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  left: -100px;
+}
+
+.student .bottomcard .mahliyo .pass button {
+  font-family: "EuropeExtB";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border: 1px solid #1f1f1f;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 80px;
+  padding: 10px 15px;
+  color: #1f1f1f;
+}
+
+.student .bottomcard .mahliyo .pass :nth-child(2) {
+  width: 170px;
+  margin-top: -10px;
+  font-family: "SwitzerR";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #1f1f1f;
+  border: 1px solid #fff;
+}
+
+/* contact *****  */
+.intl-tel-input .selected-flag .iti-arrow {
+  display: none;
+}
+
+.iti-flag {
+  display: none;
+}
+
+.intl-tel-input.separate-dial-code .selected-flag {
+  background: transparent !important;
+}
+
+.intl-tel-input.separate-dial-code .selected-dial-code {
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  padding-top: 5px;
+  color: #000000;
+  margin: 0 !important;
+}
+
+.intl-tel-input .selected-flag {
+  padding: 0 !important;
+}
+
+.intl-tel-input .country-list {
+  display: none !important;
+}
+
+.contact {
+  margin: 230px 0 80px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .text img {
+  margin-top: 30px;
+}
+
+.contact .nan {
+  display: none;
+}
+
+.contact .nan h3 {
+  font-family: "EuropeExtB";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  color: rgb(31, 31, 31);
+}
+
+.contact .nan p {
+  font-family: "SwitzerR";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #7c7c7c;
+  padding-bottom: 80px;
+}
+
+.contact .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.contact .card h3 {
+  font-family: "EuropeExtB";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  color: rgb(31, 31, 31);
+}
+
+.contact .card p {
+  font-family: "SwitzerR";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #7c7c7c;
+  padding-bottom: 80px;
+}
+
+.contact .card input {
+  width: 515px;
+  border: none;
+  background-color: #fbfbfb;
+  font-family: "EuropeExtB";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 39px;
+  padding-top: 5px;
+  color: #000000;
+  border-bottom: 2px solid #d6d6d6;
+  margin: 30px 0px;
+}
+
+.contact .card input::-moz-placeholder {
+  color: #d6d6d6;
+}
+
+.contact .card input::placeholder {
+  color: #d6d6d6;
+}
+
+.contact .card :focus {
+  outline: none;
+}
+
+.contact .card .buttonBgGrey {
+  margin-top: 70px;
+}
+
+/* footer ********** */
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background: rgb(44, 44, 44);
+}
+
+footer .left {
+  text-align: left;
+}
+
+footer .left p {
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: rgb(255, 255, 255);
+  margin-top: 35px;
+}
+
+footer .left span {
+  display: block;
+  font-family: "SwitzerL";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: rgb(255, 255, 255);
+  margin-top: 28px;
+}
+
+footer .left .flex {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+
+footer .left .flex img {
+  width: 60px;
+  height: 60px;
+}
+
+footer .left .flex :nth-child(2) {
+  margin: 0px 20px;
+}
+
+footer ul {
+  text-align: left;
+}
+
+footer ul h4 {
+  margin-top: 70px;
+  font-family: "EuropeExtR";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: rgb(255, 255, 255);
+}
+
+footer ul li {
+  margin: 20px 0px;
+}
+
+footer ul li a,
+footer ul li p {
+  text-decoration: none;
+  font-family: "EuropeExtB";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  color: white;
+}
+
+footer .box {
+  display: none;
+}
+
+.button {
+  position: relative;
+  margin-top: auto;
+  width: 80px;
+  height: 80px;
+  background: transparent;
+}
+
+.button__like-text {
+  background: #cacaca;
+  color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.2s transform;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: all 0.2s linear;
+}
+
+.bubble--big {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 0, 0, 0.03);
+  transition: height 0.3s, width 0.4s, background-color 0.4s;
+}
+
+a:focus {
+  outline: none;
+  position: relative;
+}
+
+.call-action {
+  height: 40vh;
+  background: rgb(0, 102, 255);
+  position: relative;
+}
+
+.call-action .button {
+  position: absolute;
+  margin-left: 100px;
+  right: 80px;
+  left: auto;
+  bottom: 80px;
+}
+
+.d-none {
+  display: none;
+}
+
+@media (max-width: 1920px) {
+  nav .search img:not(.middleFintech img) {
+    width: 80px;
+  }
+}
+
+@media (max-width: 1440px) {
+  nav .search img:not(.middleFintech img) {
+    width: 60px;
+  }
+
+  nav .search .middleInp input {
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 400;
+    padding: 29px 0;
+  }
+
+  nav .search .titleNav {
+    display: none;
+  }
+
+  nav .search .title {
+    display: block;
+  }
+
+  .easier .easierTitle {
+    font-family: "EuropeExtB";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  .easier button.buttonBg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .easier .line {
+    width: 100%;
+  }
+
+  header .typesLessons {
+    margin: 0;
+  }
+
+  header .typesLessons button {
+    padding: 25px 30px;
+  }
+
+  header .lessonsBtn .mtLesson {
+    margin-top: 5px;
+  }
+
+  header .lessonsBtn button {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .aboutUs .text p {
+    font-family: "EuropeExtB";
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #1f1f1f;
+  }
+
+  .courses .courseButon {
+    display: flex;
+    align-items: center;
+  }
+
+  .courses .courseButon button {
+    font-family: "EuropeExtB";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #1f1f1f;
+    padding: 26px 70px;
+  }
+
+  .courses .front .left h3 {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .courses .bacend .left h3 {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .courses .mobile .left h3 {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .motivational .center .text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .motivational .center .text h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .motivational .center .text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .motivational .img {
+    margin-top: 0px;
+  }
+
+  .motivational .img img {
+    width: 80%;
+  }
+
+  .motivational .left h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+
+  .motivational .left p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .motivational .right button.buttonBg {
+    width: 130px;
+    height: 130px;
+  }
+
+  .statistika .right .box .card {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .statistika .right .box .card h3 {
+    font-size: 32px;
+    line-height: 64px;
+  }
+
+  .statistika .right .box .text {
+    display: flex;
+  }
+
+  .statistika .right .box .text p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .studentWork .left button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 20px;
+  }
+
+  .studentWork .box {
+    margin-top: 40px;
+    width: 500px;
+  }
+
+  .studentWork .box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .studentWork .box img {
+    width: 350px;
+  }
+
+  .studentWork .box .flex img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .studentWork .box .flex .colomun h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .studentWork .box .flex .colomun p {
+    font-size: 11px;
+  }
+
+  .studentWork .uniret h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .studentWork .uniret .img {
+    margin: 0;
+  }
+
+  .studentWork .uniret .img img {
+    width: 320px;
+    height: 350px;
+  }
+
+  .studentWork .uniret .flex img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .studentWork .uniret .flex .colomun h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .studentWork .sistema h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 120px;
+  }
+
+  .studentWork .sistema img {
+    width: 400px;
+  }
+
+  .studentWork .sistema .flex {
+    margin-top: 140px;
+  }
+
+  .studentWork .sistema .flex img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .studentWork .sistema .flex .colomun h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .studentWork .sistema .flex .colomun p {
+    font-size: 11px;
+    line-height: 17px;
+    color: #c5c5c5;
+  }
+
+  .teachers .row .cards img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .teachers .row .cards .techTitle {
+    font-size: 16px;
+    margin: 10px 0 8px;
+  }
+
+  .teachers .row .cards .assetTitle {
+    font-size: 16px;
+    margin: 20px 0 8px;
+  }
+
+  .teachers .row .cards .teacherCard {
+    position: relative;
+  }
+
+  .teachers .row .cards .teacherCard .teachImg img {
+    border-radius: 10px;
+  }
+
+  .teachers .row .cards .teacherCard .teachImg .activity button {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+
+  .teachers .row .cards .assistentCard {
+    margin-right: 40px;
+  }
+
+  .teachers .row .cards .assistentCard .assisImg img {
+    border-radius: 50%;
+  }
+
+  .withUs .center .circlePart {
+    width: 600px;
+    height: 600px;
+  }
+
+  .withUs .right {
+    height: 350px;
+  }
+
+  .withUs .right p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .withUs .right .bot {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .withUs .center h3 {
+    width: 420px;
+    height: 420px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .withUs .left {
+    height: 350px;
+  }
+
+  .withUs .left p.text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .withUs .left p.bot {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .news .left button {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px;
+  }
+
+  .news .box img {
+    width: 300px;
+  }
+
+  .news .box .colomun h3 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .news .box .colomun p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .news .box .colomun button.buttonBlur {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .student .studentImgOne {
+    width: 200px;
+    height: 200px;
+  }
+
+  .student .studentImgTwo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .student .studentImgThree {
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+  }
+
+  .student .studentImgFour {
+    width: 180px;
+    height: 180px;
+  }
+
+  .student .studentImgFive {
+    width: 220px;
+    height: 220px;
+  }
+
+  .student .text button.buttonBg {
+    margin-top: 200%;
+  }
+
+  .student .box {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .student .box .card {
+    margin-right: 30px;
+  }
+
+  .student .box .card .img1 .pass {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    left: -60px;
+  }
+
+  .student .box .card .img1 .pass button {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+
+  .student .box .card .img1 .pass :nth-child(2) {
+    padding: 8px 0;
+    width: 140px;
+    font-size: 12px;
+  }
+
+  .student .box .card .img2 {
+    margin-top: 30px;
+  }
+
+  .student .box .card .img2 .pass {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    left: -120px;
+  }
+
+  .student .box .card .img2 .pass button {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+
+  .student .box .card .img2 .pass :nth-child(2) {
+    width: 150px;
+    padding: 8px 0;
+    font-size: 12px;
+  }
+
+  .student .box .flex {
+    margin-top: 0px;
+  }
+
+  .student .box .flex .img3 {
+    position: absolute;
+    bottom: 120px;
+    left: 80px;
+  }
+
+  .student .box .flex .img3 .play {
+    width: 70px;
+    z-index: 9999;
+  }
+
+  .student .box .flex .pass {
+    bottom: 60px;
+    right: -80px;
+  }
+
+  .student .box .flex .pass button {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+
+  .student .box .flex .pass :nth-child(2) {
+    padding: 8px;
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .student .bottomcard {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .student .bottomcard .malika .pass {
+    bottom: 10px;
+    right: -100px;
+  }
+
+  .student .bottomcard .malika .pass button {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+
+  .student .bottomcard .malika .pass :nth-child(2) {
+    padding: 8px 0;
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .student .bottomcard .mahliyo .pass {
+    bottom: 0px;
+    left: -100px;
+  }
+
+  .student .bottomcard .mahliyo .pass button {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .student .bottomcard .mahliyo .pass :nth-child(2) {
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .contact {
+    margin-top: 150px;
+  }
+
+  .contact .text img {
+    margin: 0;
+    width: 350px;
+  }
+
+  .contact .card h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .contact .card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0;
+  }
+
+  .contact .card input {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .contact .card button.buttonBg {
+    width: 120px;
+    height: 120px;
+    margin: 40px 0 0;
+  }
+
+  footer .left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  footer .left span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  footer ul h4 {
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  footer ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .withUs .center .circlePart {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-lg {
+    max-width: 992px;
+  }
+
+  .media img:not(.media .mediaLogo img) {
+    width: 56px;
+  }
+
+  .media .mediaLogo img {
+    width: 180px;
+  }
+
+  .row-md {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0px -15px; */
+  }
+
+  .col-6-lg {
+    width: calc(100% / 12 * 6);
+    padding: 0px 10px;
+  }
+
+  .col-8-lg {
+    width: calc(100% / 12 * 8);
+    padding: 0px 10px;
+  }
+
+  .col-lg {
+    width: calc(100% / 12);
+    padding: 0px 10px;
+  }
+
+  .col-2-lg {
+    width: calc(100% / 12 * 2);
+    padding: 0px 10px;
+  }
+
+  nav .search {
+    display: none;
+  }
+
+  nav .media {
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 111;
+  }
+
+  nav .media .mediaInp input {
+    width: 100%;
+    padding: 11px 0;
+    border: none;
+    color: #000;
+    font-size: 24px;
+    line-height: 38px;
+    font-family: "EuropeExtR";
+    outline: none;
+  }
+
+  /* nav .media .mediaInp {
+    width: 100%;
+  }
+
+  nav .media .mediaInp .mediaInpBox .mediaInpSearch {
+    margin-right: 30px;
+  }
+
+  nav .media .mediaInp .mediaInpBox .navClick {
+    width: 100%;
+  }
+
+  nav .media .mediaInp .mediaInpBox .navClick input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    color: #000;
+    font-size: 24px;
+    line-height: 38px;
+    font-family: "EuropeExtR";
+    outline: none;
+  }
+
+  nav .media .mediaMenu {
+    text-align: center;
+    border-left: 1px solid rgb(231, 231, 231);
+    padding: 2px 0;
+  }
+
+  nav .media .mediaSearch {
+    border-left: 1px solid rgb(231, 231, 231);
+    padding-left: 20px;
+  } */
+
+  nav .search {
+    display: none;
+  }
+
+  nav .media {
+    display: block;
+  }
+
+  .easier .easierTitle {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .easier button.buttonBg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .easier .slider .pagination span {
+    font-size: 10px;
+    line-height: 35px;
+  }
+
+  .easier .line {
+    width: 100%;
+  }
+
+  header .bgImgs {
+    padding: 563px 0 15px 15px;
+    background-image: url("../assets/Imgs/mdimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header .typesLessons button {
+    padding: 18px 30px;
+  }
+
+  header .lessonsBtn {
+    margin-top: 20px;
+  }
+
+  header .lessonsBtn .mtLesson button {
+    padding: 10px;
+  }
+
+  .aboutUs {
+    padding: 0;
+    padding-top: 100px;
+  }
+
+  .aboutUs #wrapper p {
+    font-size: 22px;
+  }
+
+  .courses {
+    padding: 0;
+    padding-top: 100px;
+  }
+
+  .courses .courseButon button {
+    font-size: 16px;
+    padding: 20px 30px;
+  }
+
+  .courses .front .left h3 {
+    font-size: 20px;
+  }
+
+  .courses .bacend .left h3 {
+    font-size: 20px;
+  }
+
+  .courses .mobile .left h3 {
+    font-size: 20px;
+  }
+
+  .motivational {
+    padding: 0;
+  }
+
+  .motivational .left h2 {
+    font-size: 20px;
+    line-height: 30.8px;
+  }
+
+  .motivational .right {
+    margin: 0;
+  }
+
+  .motivational .right .registerBtn {
+    width: 120px;
+    height: 120px;
+  }
+
+  .statistika {
+    padding: 0;
+    padding-top: 120px;
+  }
+
+  .statistika .box .card {
+    width: 220px !important;
+    height: 250px !important;
+  }
+
+  .statistika .box .card p {
+    color: #737373 !important;
+  }
+
+  .studentWork {
+    padding: 0;
+    padding-top: 140px;
+  }
+
+  .studentWork .left button {
+    display: none;
+  }
+
+  .studentWork .box {
+    display: none;
+  }
+
+  .studentWork .uniret {
+    height: 530px;
+  }
+
+  .studentWork .uniret .flex h5 {
+    text-transform: uppercase;
+  }
+
+  .studentWork .sistema {
+    display: none;
+  }
+
+  .studentWork .box_mobil {
+    display: block;
+  }
+
+  .studentWork .box_mobil .flex img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .studentWork .box_mobil .flex .colomun h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .studentWork .sistema_mobil {
+    display: block;
+  }
+
+  .studentWork .sistema_mobil h4 {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .studentWork .sistema_mobil img {
+    width: 540px;
+  }
+
+  .studentWork .sistema_mobil .flex {
+    margin: 0;
+    margin-top: 35px;
+  }
+
+  .studentWork .sistema_mobil .flex img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .studentWork .sistema_mobil .flex .colomun h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .studentWork button.up {
+    width: 100% !important;
+    display: block;
+    margin-top: 40px;
+    padding: 30px;
+    font-family: "EuropeExtR";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(102, 102, 102);
+    border: 1px solid #1f1f1f;
+    border-radius: 73px;
+    background-color: white;
+    cursor: none;
+  }
+
+  .withUs {
+    margin-top: 120px;
+  }
+
+  .withUs .right {
+    height: 400px;
+  }
+
+  .withUs .right p {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .withUs .right .bot {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .withUs .center .circlePart {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .withUs .center .circlePart .circleTitleActive {
+    font-size: 22px;
+    line-height: 35.42px;
+  }
+
+  .withUs .left {
+    height: 400px;
+  }
+
+  .withUs .left p.text {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .withUs .left p.bot {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .news .left {
+    margin-bottom: 30px;
+  }
+
+  .news .left button {
+    display: none;
+  }
+
+  .news .box h3 {
+    font-size: 20px;
+  }
+
+  .news button.up {
+    display: block;
+    width: 100%;
+  }
+
+  .student {
+    margin-top: 230px;
+    position: relative;
+  }
+
+  .student video {
+    /* border-radius: 50%; */
+    -o-object-fit: fill;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+
+  .student .videos {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    /* position: fixed; */
+    /* top: 50%; */
+    /* left: 0; */
+    /* transform: translate(0%, -50%); */
+    /* background: rgba(0, 0, 0, 0.7); */
+    -webkit-backdrop-filter: blur(17px);
+    backdrop-filter: blur(17px);
+    /* z-index: 99; */
+    transition: all 3s linear;
+  }
+
+  .student .videos .w100 {
+    width: 650px;
+    height: 650px;
+    /* position: relative; */
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+  }
+
+  .student .videos .blurVido {
+    width: 100%;
+    height: 100%;
+  }
+
+  .student .videos .vidText {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .student .videos .vidText h1 {
+    font-family: "EuropeExtB";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 161.02%;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #000000;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 80px;
+    padding: 14px 16px;
+  }
+
+  .student .videos .vidText p {
+    font-family: "SwitzerR";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 161.02%;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ffffff;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 80px;
+    width: 142px;
+    margin: auto;
+    padding: 10px 0;
+    margin-top: -10px;
+  }
+
+  .student {
+    padding: 0;
+    padding-top: 140px;
+  }
+
+  .student .text {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .student .text button.buttonBg {
+    margin-top: 0;
+    transform: translateY(1150px);
+    margin-left: 60%;
+  }
+
+  .student .box .card .img1 video {
+    width: 250px;
+    height: 250px;
+  }
+
+  .student .box .card .img1 .pass {
+    bottom: 20px;
+    left: -50px;
+  }
+
+  .student .box .card .img2 {
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+
+  .student .box .card .img2 video {
+    width: 250px;
+    height: 250px;
+  }
+
+  .student .box .card .img2 .pass {
+    bottom: 20px;
+    left: -20px;
+  }
+
+  .student .box .flex {
+    margin-top: 100px;
+    transform: translate(-50px);
+  }
+
+  .student .box .flex .studentCursor video {
+    width: 450px;
+    height: 450px;
+  }
+
+  .student .box .flex .pass {
+    bottom: 200px;
+    right: 0px;
+  }
+
+  .student .bottomcard {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+  }
+
+  .student .bottomcard .malika {
+    margin-right: 100px;
+    transform: translateY(-100px);
+  }
+
+  .student .bottomcard .malika video {
+    width: 250px;
+    height: 250px;
+  }
+
+  .student .bottomcard .malika .pass {
+    bottom: 20px;
+    right: -50px;
+  }
+
+  .student .bottomcard .mahliyo {
+    margin-top: 30px;
+  }
+
+  .student .bottomcard .mahliyo video {
+    width: 350px;
+    height: 350px;
+  }
+
+  .student .bottomcard .mahliyo .pass {
+    bottom: 20px;
+    left: -30px;
+  }
+
+  .contact {
+    padding: 0;
+    margin-top: 140px;
+    margin-bottom: 100px;
+  }
+
+  .contact .text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact .text img {
+    empty-cells: 50%;
+  }
+
+  .contact .text .nan {
+    display: block;
+    margin-left: 30px;
+  }
+
+  .contact .text .nan h3 {
+    font-size: 30px;
+    line-height: 44.8px;
+  }
+
+  .contact .text .nan p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .contact .card h3 {
+    display: none;
+  }
+
+  .contact .card p {
+    display: none;
+  }
+
+  footer ul {
+    display: none;
+  }
+
+  footer .left {
+    display: none;
+  }
+
+  footer .box {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .box .left {
+    width: 30%;
+    display: block;
+    margin-top: 30px;
+  }
+
+  footer .box .left .card_mobil {
+    display: none;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  footer .box .left .card_mobil .mob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #797979;
+    padding: 20px 0px;
+  }
+
+  footer .box .left .card_mobil .mob h4 {
+    font-family: "EuropeExtR";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  footer .box .card {
+    width: 60%;
+  }
+
+  footer .box .card .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #797979;
+    padding: 20px 0px;
+  }
+
+  footer .box .card .flex h4 {
+    font-family: "EuropeExtR";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* *************************** */
+  .circle svg circle {
+    display: none;
+  }
+
+  .circle svg circle:nth-child(2) {
+    display: none;
+  }
+
+  .circle .videoProgress_mobile circle {
+    display: block;
+  }
+
+  .circle .videoProgress_mobile circle:nth-child(2) {
+    display: block;
+  }
+
+  /* *************************** */
+  .container-md {
+    max-width: 768px;
+  }
+
+  .easier {
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .easier .mob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .easier .mob .easierTitle {
+    margin: auto;
+  }
+
+  .easier .mob .slider {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .easier .mob .slider .pagination .slick-slide {
+    padding: 0px;
+  }
+
+  .easier .mob .slider .pagination span {
+    font-size: 10px;
+    line-height: 35.42px;
+  }
+
+  .easier .mob .line {
+    margin-top: 80px !important;
+    text-align: center;
+    margin: auto;
+    transform: rotate(90deg);
+    width: 130px;
+  }
+
+  .easier .mob button.registerBtn {
+    margin-top: 80px;
+  }
+
+  header {
+    margin-top: 30px;
+  }
+
+  header .bgImgs {
+    padding: 563px 0 15px 15px;
+    background-image: url("../assets/Imgs/headerMobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header .typesLessons {
+    display: none;
+  }
+
+  header .lessonsBtn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  header .lessonsBtn button {
+    margin: 2px;
+  }
+
+  header .lessonsBtn .mtLesson {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  header .lessonsBtn .mtLesson button {
+    font-size: 14px;
+    margin: 2px;
+  }
+
+  .aboutUs {
+    display: none;
+  }
+
+  .courses {
+    margin: 0;
+  }
+
+  .courses .courseButon {
+    margin-top: 22px;
+  }
+
+  .courses .courseButon button {
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 12.89px;
+  }
+
+  .courses .front .left h3 {
+    font-size: 20px;
+    line-height: 30.8px;
+  }
+
+  .courses .front .img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .courses .bacend .left h3 {
+    font-size: 20px;
+    line-height: 30.8px;
+  }
+
+  .courses .bacend .img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .courses .mobile .left h3 {
+    font-size: 20px;
+    line-height: 30.8px;
+  }
+
+  .courses .mobile .img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .atmosphere {
+    padding: 0;
+    margin-top: 150px;
+  }
+
+  .atmosphere .atmospheresFlex .anomeOne {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .atmosphere .atmospheresFlex .anomeOne .openSpace {
+    text-align: left;
+  }
+
+  .atmosphere .atmospheresFlex .anomeOne .imgs {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .motivational .left h2 {
+    font-size: 20px;
+    line-height: 30.8px;
+  }
+
+  .motivational .right {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .statistika {
+    padding: 0;
+    margin: 0;
+    margin-top: 120px;
+  }
+
+  .statistika .box .card {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .statistika .box .card h3 {
+    font-size: 20px;
+    line-height: 30.8px;
+  }
+
+  .statistika .box .card p {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+
+  .statistika .box .text {
+    display: none;
+  }
+
+  .statistika .box .text p {
+    display: none;
+  }
+
+  .studentWork {
+    padding: 0;
+    margin: 0;
+    margin-top: 80px;
+  }
+
+  .studentWork .left {
+    text-align: left;
+  }
+
+  .studentWork .left h2.title {
+    font-size: 20px;
+  }
+
+  .studentWork .sistema_mobil {
+    height: 370px;
+  }
+
+  .studentWork .sistema_mobil h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .studentWork .sistema_mobil img {
+    width: 250px !important;
+  }
+
+  .studentWork .sistema_mobil .flex {
+    flex-direction: column;
+  }
+
+  .studentWork .sistema_mobil .flex img {
+    width: 330px !important;
+  }
+
+  .studentWork .sistema_mobil .flex .img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .studentWork .sistema_mobil .flex .img img {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .studentWork .sistema_mobil .flex .colomun {
+    margin-top: 10px;
+  }
+
+  .studentWork .uniret {
+    height: 370px;
+    background-color: #000;
+  }
+
+  .studentWork .uniret h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+  }
+
+  .studentWork .uniret .img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .studentWork .uniret .img img {
+    width: 250px !important;
+    height: 200px;
+  }
+
+  .studentWork .uniret .flex {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .studentWork .uniret .flex .img1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .studentWork .box_mobil {
+    height: 370px;
+    background-color: #000;
+  }
+
+  .studentWork .box_mobil h4 {
+    display: none;
+  }
+
+  .studentWork .box_mobil h5 {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .studentWork .box_mobil img {
+    margin: 0;
+    padding: 0;
+    width: 250px !important;
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  .studentWork .box_mobil .flex {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .studentWork .box_mobil .flex .img {
+    display: flex;
+    justify-content: left !important;
+    align-items: center;
+  }
+
+  .studentWork .box_mobil .flex .img img {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .studentWork button.up {
+    font-size: 16px;
+    padding: 24px 0px;
+    width: 100%;
+  }
+
+  .teachers {
+    margin: 0;
+    margin-top: 70px;
+  }
+
+  .teachers .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .withUs {
+    display: none;
+  }
+
+  .news {
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+  }
+
+  .news .box {
+    flex-direction: column;
+  }
+
+  .news .box img {
+    width: 100%;
+  }
+
+  .news .box .colomun h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px !important;
+    line-height: 32.2px !important;
+  }
+
+  .news .box .colomun p {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .news button.up {
+    padding: 24px 0px;
+    width: 100%;
+  }
+
+  .student {
+    margin: 0;
+    padding: 0;
+    margin-top: 120px;
+  }
+
+  .student .videos .w100 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .student .text {
+    text-align: left;
+  }
+
+  .student .text h2.title {
+    font-size: 20px;
+    line-height: 32.2px;
+  }
+
+  .student .text button.registerBtn {
+    display: none;
+  }
+
+  .student .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .student .box .card .img1 {
+    transform: translate(-150px);
+  }
+
+  .student .box .card .img1 video {
+    width: 230px;
+    height: 230px;
+  }
+
+  .student .box .card .img1 .pass {
+    left: -20px;
+    bottom: 30px;
+  }
+
+  .student .box .card .img1 .pass button {
+    font-size: 14px;
+    line-height: 22.54px;
+    padding: 8px;
+  }
+
+  .student .box .card .img1 .pass :nth-child(2) {
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 19.32px;
+  }
+
+  .student .box .card .flex_mobil {
+    margin: 10px;
+    display: block;
+  }
+
+  .student .box .card .flex_mobil .studentCursor video {
+    width: 320px !important;
+    height: 320px !important;
+  }
+
+  .student .box .card .flex_mobil .pass button {
+    font-size: 14px;
+    line-height: 22.54px;
+    padding: 10px;
+  }
+
+  .student .box .card .flex_mobil .pass :nth-child(2) {
+    padding: 8px;
+    font-size: 12px;
+    line-height: 19.32px;
+    margin-left: 20px;
+  }
+
+  .student .box .card .img2 {
+    margin-top: 0px;
+    transform: translate(-20px);
+  }
+
+  .student .box .card .img2 video {
+    width: 200px;
+    height: 200px;
+  }
+
+  .student .box .card .img2 .pass button {
+    font-size: 14px;
+    line-height: 22.54px;
+    padding: 10px;
+  }
+
+  .student .box .card .img2 .pass :nth-child(2) {
+    width: 120px;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 19.32px;
+  }
+
+  .student .box .flex {
+    display: none;
+  }
+
+  .student .bottomcard {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+    transform: translate(80px);
+  }
+
+  .student .bottomcard .mahliyo {
+    margin: 0;
+    padding: 0;
+  }
+
+  .student .bottomcard .mahliyo video {
+    width: 250px;
+    height: 250px;
+  }
+
+  .student .bottomcard .mahliyo .pass {
+    left: -10px;
+  }
+
+  .student .bottomcard .mahliyo .pass button {
+    font-size: 14px;
+    line-height: 22.54px;
+    padding: 10px;
+  }
+
+  .student .bottomcard .mahliyo .pass :nth-child(2) {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 19.32px;
+  }
+
+  .student .bottomcard .malika {
+    margin: 0;
+    padding: 0;
+    transform: translate(60%);
+  }
+
+  .student .bottomcard .malika video {
+    width: 200px;
+    height: 200px;
+  }
+
+  .student .bottomcard .malika .pass {
+    right: -20px;
+  }
+
+  .student .bottomcard .malika .pass button {
+    font-size: 14px;
+    line-height: 22.54px;
+    padding: 10px;
+  }
+
+  .student .bottomcard .malika .pass :nth-child(2) {
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 19.32px;
+  }
+
+  .contact {
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+  }
+
+  .contact h2.tile {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .contact .text {
+    position: relative;
+  }
+
+  .contact .text img {
+    width: 100%;
+  }
+
+  .contact .text .nan {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .contact .text .nan h3 {
+    padding: 0;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+  }
+
+  .contact .text .nan p {
+    padding: 0;
+    font-size: 14px;
+    line-height: 18.48px;
+    color: white;
+  }
+
+  .contact .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .card input {
+    width: 300px;
+  }
+
+  .contact .card form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .card form input {
+    width: 100%;
+    border-bottom: 2px solid #1f1f1f;
+    padding: 10px 0px;
+  }
+
+  footer {
+    margin-top: 60px;
+  }
+
+  footer .box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  footer .box .card {
+    display: none;
+  }
+
+  footer .box .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .box .left .card_mobil {
+    display: block;
+  }
+
+  footer .box .left .flex {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  footer .box .left p {
+    margin-top: 60px !important;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .circle svg circle {
+    display: none;
+  }
+
+  .circle svg circle:nth-child(2) {
+    display: none;
+  }
+
+  .circle .videoProgress_mobile circle {
+    display: block;
+  }
+
+  .circle .videoProgress_mobile circle:nth-child(2) {
+    display: block;
+  }
+}
+
+@media (max-width: 444px) {
+  .media img:not(.media .mediaLogo img) {
+    width: 40px;
+  }
+
+  .media .mediaLogo img {
+    width: 128px;
+  }
+
+  nav .media .mediaInp input {
+    width: 100%;
+    padding: 11px 0;
+    /* height: 60px; */
+    border: none;
+    color: #000;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "EuropeExtR";
+    outline: none;
+  }
+
+  nav .media .mediaInpSearch {
+    padding: 5.5px 0;
+  }
+
+  nav .media .mediaInpClose {
+    padding: 5.5px 0;
+  }
+
+  nav .media .mediaButton {
+    padding: 5.5px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-md {
+    max-width: 400px;
+  }
+
+  .statistika .box {
+    width: 100%;
+    margin: auto;
+  }
+
+  .statistika .box .card {
+    width: 100%;
+    margin: auto;
+  }
+
+  .teachers .cards .teacherCard .teachImg img {
+    width: 300px !important;
+  }
+
+  .teachers .cards .assistentCard .assisImg {
+    width: 250px;
+  }
+
+  .student .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .student .box .card .img1 {
+    transform: translate(-80px);
+  }
+
+  .student .box .card .img1 video {
+    width: 220px;
+    height: 220px;
+  }
+
+  .student .box .card .img1 .pass {
+    left: -10px;
+    bottom: 30px;
+  }
+
+  .student .box .card .img1 .pass button {
+    font-size: 12px;
+    line-height: 22.54px;
+    padding: 8px;
+  }
+
+  .student .box .card .img1 .pass :nth-child(2) {
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 19.32px;
+  }
+
+  .student .box .card .flex_mobil {
+    margin: 10px;
+    display: block;
+  }
+
+  .student .box .card .flex_mobil .studentCursor video {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .student .box .card .flex_mobil .pass {
+    left: 15px;
+  }
+
+  .student .box .card .flex_mobil .pass button {
+    font-size: 12px;
+    line-height: 22.54px;
+    padding: 8px;
+  }
+
+  .student .box .card .flex_mobil .pass :nth-child(2) {
+    padding: 5px;
+    font-size: 10px;
+    line-height: 19.32px;
+    margin-left: 20px;
+  }
+
+  .student .box .card .img2 video {
+    width: 180px;
+    height: 180px;
+  }
+
+  .student .box .card .img2 .pass button {
+    font-size: 12px;
+    line-height: 22.54px;
+    padding: 8px;
+  }
+
+  .student .box .card .img2 .pass :nth-child(2) {
+    width: 120px;
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 10px;
+    line-height: 19.32px;
+  }
+
+  .student .box .flex {
+    display: none;
+  }
+
+  .student .bottomcard {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    transform: translate(-10px);
+  }
+
+  .student .bottomcard .mahliyo video {
+    width: 220px;
+    height: 220px;
+  }
+
+  .student .bottomcard .mahliyo .pass {
+    left: 0px;
+  }
+
+  .student .bottomcard .mahliyo .pass button {
+    font-size: 12px;
+    line-height: 22.54px;
+    padding: 8px;
+  }
+
+  .student .bottomcard .mahliyo .pass :nth-child(2) {
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+    line-height: 19.32px;
+  }
+
+  .student .bottomcard .malika {
+    transform: translate(0px);
+    margin-left: 80px;
+  }
+
+  .student .bottomcard .malika video {
+    width: 200px;
+    height: 200px;
+  }
+
+  .student .bottomcard .malika .pass {
+    right: -5px;
+  }
+
+  .student .bottomcard .malika .pass button {
+    font-size: 12px;
+    line-height: 22.54px;
+    padding: 8px;
+  }
+
+  .student .bottomcard .malika .pass :nth-child(2) {
+    margin-left: 40px;
+    font-size: 10px;
+    padding: 5px;
+    line-height: 19.32px;
+  }
+}

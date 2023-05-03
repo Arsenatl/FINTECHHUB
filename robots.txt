@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /frontendcurses/index.html
+Allow: /Project_students/index1.html
+Allow: /news/inde1.html
+
+
+Sitemap: https://fintechhub.uz/sitemap.xml
+Host: https://fintechhub.uz/
